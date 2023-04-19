@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+}
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 20px;
+    text-align: center;
+}
+#board {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: white;
+    margin: 0;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.tile {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 147px;
+    height: 147px;
+    display: flex;
+    font-size: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.horline {
+    border-bottom: 3px solid darkgray;
+    border-radius: 5px;
+}
+.verline {
+    border-right: 3px solid darkgray;
+}
+
+.winner {
+    background-color: lightgrey;
+    color: red;
+}
